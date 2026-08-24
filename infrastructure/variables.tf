@@ -9,3 +9,15 @@ variable "resource_group_name" {
   type        = string
   default     = "cloud-resume-rg"
 }
+
+variable "function_storage_account_name" {
+  description = "Name of the storage account for the function app (must be globally unique)"
+  type        = string
+  default     = "jscloudresumeacct2026be"
+}
+
+variable "function_app_name" {
+  description = "Name of the Azure Function App (must be globally unique)"
+  type        = string
+  default     = "jscloudresumeapp2026"
+}
