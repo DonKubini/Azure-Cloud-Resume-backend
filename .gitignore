@@ -3,8 +3,8 @@
 Thumbs.db
 
 # Editor directories and files
-.vscode/
 .idea/
+.vscode/
 *.sw?
 
 # Node modules (just in case you add frontend build tools later)
@@ -17,3 +17,17 @@ node_modules/
 *.tfstate.backup
 *.tfvars
 *.tfvars.json
+*.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Python
+.venv
+.python_packages
+__pycache__/
+*.pyc
+
+# Azure Functions
+local.settings.json
+bin/
+obj/
