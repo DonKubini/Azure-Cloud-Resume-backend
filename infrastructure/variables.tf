@@ -21,3 +21,9 @@ variable "function_app_name" {
   type        = string
   default     = "jscloudresumeapp2026"
 }
+
+variable "github_repository" {
+  description = "The GitHub repository in the format of Organization/Repository (e.g., your-username/azure-resume-backend)"
+  type        = string
+  default     = "donkubini/Azure-Cloud-Resume-backend"
+}
