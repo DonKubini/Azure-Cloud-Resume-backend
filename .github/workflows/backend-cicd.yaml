@@ -45,6 +45,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Debug tenant secret length
+        run: echo "Length: ${#TENANT}"
+        env:
+          TENANT: ${{ secrets.AZURE_TENANT_ID }}
+
       # 1. Secretless Login to Azure
       - name: Azure Login
         uses: azure/login@v2
