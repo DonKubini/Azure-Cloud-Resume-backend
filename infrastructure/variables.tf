@@ -25,5 +25,5 @@ variable "function_app_name" {
 variable "github_repository" {
   description = "The GitHub repository in the format of Organization/Repository (e.g., your-username/azure-resume-backend)"
   type        = string
-  default     = "donkubini/Azure-Cloud-Resume-backend"
+  default     = "DonKubini@128520245/Azure-Cloud-Resume-backend@1341805137"
 }
