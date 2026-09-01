@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Debug tenant secret length
-        run: echo "Length: ${#TENANT}"
+        run: echo "${#TENANT}"
         env:
           TENANT: ${{ secrets.AZURE_TENANT_ID }}
 
