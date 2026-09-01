@@ -31,3 +31,7 @@ __pycache__/
 local.settings.json
 bin/
 obj/
+
+# pytest
+.pytest_cache/
+pytestdebug.log
