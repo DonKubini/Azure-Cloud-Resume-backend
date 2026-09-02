@@ -1,5 +1,5 @@
 variable "cosmos_account_name" {
-  description = "Name of the Cosmos DB account (must be globally unique, lowercase letters and numbers only)"
+  description = "Name of the Cosmos DB account (must be globally unique)"
   type        = string
   default     = "js-cloud-resume-db"
 }

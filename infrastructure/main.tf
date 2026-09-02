@@ -1,4 +1,4 @@
-# Look up the existing Resource Group from Phase 1
+# Look up the existing Resource Group
 data "azurerm_resource_group" "rg" {
   name = var.resource_group_name
 }
@@ -85,7 +85,7 @@ resource "azurerm_linux_function_app" "fn_app" {
   }
 }
 
-# Fetch your current Azure tenant and subscription IDs automatically
+## Fetch your current Azure tenant and subscription IDs automatically
 data "azurerm_client_config" "current" {}
 
 # 1. Create a Managed Identity specifically for GitHub Actions
